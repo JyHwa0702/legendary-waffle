@@ -1,0 +1,86 @@
+# Java 관련
+*.class
+*.jar
+*.war
+*.ear
+
+# Log 파일들
+*.log
+
+# 컴파일러 출력 폴더들
+/bin/
+/target/
+
+# 빌드 도구 폴더들
+/.gradle/
+/.gradle/
+/build/
+/out/
+
+# IntelliJ IDEA
+/.idea
+*.iml
+*.iws
+
+# Eclipse
+/.classpath
+/.project
+/.settings/
+
+# VS Code
+/.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# 로그 파일들
+*.log
+
+# OS별 디렉토리
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+# Windows image file caches
+*.stackdump
+*.stacktrace
+# Folder config file
+*.directory
+
+# Maven
+/.mvn/
+.mvn/timing.properties
+target/
+
+# 환경 설정 파일들
+*.env
+# Exclude application.properties for sensitive information
+/src/main/resources/application.properties
+
+# IDE별 설정 파일들
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Lombok
+.lombok/
+
+# 라이브러리
+lib/
+libs/
